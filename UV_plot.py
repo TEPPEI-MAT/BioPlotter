@@ -28,6 +28,5 @@ plt.xticks(size=25, color="#2b2b2b")
 #plt.ylim(-5, 15) #縦軸の幅#
 
 #plt.show() #確認したい時は頭の＃を消す
-
 #save figure#
 plt.savefig(output_path, dpi = 1200, bbox_inches='tight')
