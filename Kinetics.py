@@ -24,7 +24,6 @@ def graph_plot(max, Vmax, km):
     y.append(MM(i,Vmax,km))
   return x, y
 
-
 #dataframe#
 df = pd.read_csv("test.csv")
 use = (3.5 / 40765.44) * 0.875 * 10 ** 6 #amount of enzyme
