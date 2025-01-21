@@ -1,7 +1,7 @@
 import os
 import requests
 
-def download_alphafold_structure(uniprot_id, output_dir="/Users/matsuda_teppei/Documents/UAD/001_compre_gene/structures4"):
+def download_alphafold_structure(uniprot_id, output_dir=""):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
@@ -16,7 +16,7 @@ def download_alphafold_structure(uniprot_id, output_dir="/Users/matsuda_teppei/D
         print(f"Structure not found for: {uniprot_id}")
 
 
-file_path = "/Users/matsuda_teppei/Documents/UAD/001_compre_gene/uniplot_num_3.txt"
+file_path = ""
 
 with open(file_path, "r") as file:
     data_list = [line.strip() for line in file]
