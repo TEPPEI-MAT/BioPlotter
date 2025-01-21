@@ -5,7 +5,7 @@ import os
 
 
 #Path#
-input_path = "/Users/matsuda_teppei/Library/CloudStorage/OneDrive-愛媛大学/Nm6_Matsuda/000_Tokushima/24120501_SEC_sizeM.csv"
+input_path = "test.csv"
 df = pd.read_csv(input_path, skiprows=1)
 base, _ = os.path.splitext(input_path) 
 output_path = f"{base}.png"  
