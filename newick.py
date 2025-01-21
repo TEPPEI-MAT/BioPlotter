@@ -26,4 +26,4 @@ def set_color(node, color):
 
 
 #tree.show(tree_style=ts)
-tree.render("high_res_tree2.png", w=3840, dpi=1200, tree_style=ts)
+tree.render("Tree.png", w=3840, dpi=1200, tree_style=ts)
