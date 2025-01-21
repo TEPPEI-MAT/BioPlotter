@@ -3,13 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-
 #Path#
 input_path = "test.csv"
 df = pd.read_csv(input_path, skiprows=1)
 base, _ = os.path.splitext(input_path) 
 output_path = f"{base}.png"  
-
 
 #Plot#
 fig,ax = plt.subplots(figsize=(12,8))
